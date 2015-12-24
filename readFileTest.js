@@ -40,6 +40,11 @@ try {
 let files = getFilesInDir(__dirname + '/layout');
 console.log(files);
 
+// for(let i=0; i<files.length;i++){
+// 	if(files[i].lastIndexOf('.html')>0)
+// 		files[i] = files[i].replace('.html',"");
+// }
+
 var layoutObj = {};
 
 for(let file of files){
